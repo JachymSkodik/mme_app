@@ -96,7 +96,7 @@ def marshall():
         a pevně daném důchodu (jehož výši označujeme jako
         <img src="{latex_img}{r'I'}" style="{latex_style}" />), tj.
             <div style="padding: 15px; padding-left: 20px;">
-                <img src="{latex_img}{r'\max_{X, Y} \, U(X, Y)'}" style="{latex_style}" />
+                <img src="{latex_img}{r'\max_{X, Y} U(X, Y)'}" style="{latex_style}" />
             </div>
         za podmínky
             <div style="padding: 15px; padding-left: 20px;">
@@ -362,7 +362,7 @@ def hicks():
         <b>Definice Hicksovy úlohy</b>: Hicksovou úlohou myslíme minimalizaci výdajů na nákup zboží při
         dané požadované úrovni užitku, tj.
             <div style="padding: 15px; padding-left: 20px;">
-                <img src="{latex_img}{r'\min_{X, Y} \, P_X \cdot X + P_Y \cdot Y'}" style="{latex_style}" />
+                <img src="{latex_img}{r'\min_{X, Y}   P_X \cdot X + P_Y \cdot Y'}" style="{latex_style}" />
             </div>
         za podmínky
             <div style="padding: 15px; padding-left: 20px;">
@@ -938,7 +938,7 @@ def min_naklady():
         <b>Definice úlohy minimalizace nákladů firmy</b>: 
         Úloha minimalizace nákladů firmy znamená nalezení
             <div style="padding: 15px; padding-left: 20px;">
-                <img src="{latex_img}{r'\min_{L, K} \, w \cdot L + r \cdot K'}" style="{latex_style}" />
+                <img src="{latex_img}{r'\min_{L, K}   w \cdot L + r \cdot K'}" style="{latex_style}" />
             </div>
         za podmínky
             <div style="padding: 15px; padding-left: 20px;">
@@ -1440,7 +1440,7 @@ def max_zisk():
             Dvoustupňová metoda maximalizace zisku firmy předpokládá nejprve minimalizaci nákladů (tj. odvození funkce
             <img src="{latex_img}{r'LTC'}" style="{latex_style}" />). Poté řešíme úlohu
                 <div style="padding: 15px; padding-left: 20px;">
-                    <img src="{latex_img}{r'\max_Q \, \pi = P \cdot Q - LTC(w, r, Q)'}" style="{latex_style}" />
+                    <img src="{latex_img}{r'\max_Q   \pi = P \cdot Q - LTC(w, r, Q)'}" style="{latex_style}" />
                 </div>
             za podmínky
                 <div style="padding: 15px; padding-left: 20px;">
@@ -1843,7 +1843,7 @@ def max_zisk():
             <b>Definice přímé metody</b>: 
             Přímou metodou při maximalizaci zisku firmy máme na mysli řešení následující úlohy
                 <div style="padding: 15px; padding-left: 20px;">
-                    <img src="{latex_img}{r'\max_{K, L} \, \pi = P \cdot Q(L, K) - w \cdot L - r \cdot K'}" style="{latex_style}" />
+                    <img src="{latex_img}{r'\max_{K, L}   \pi = P \cdot Q(L, K) - w \cdot L - r \cdot K'}" style="{latex_style}" />
                 </div>
             za podmínek
                 <div style="padding: 15px; padding-left: 20px;">
