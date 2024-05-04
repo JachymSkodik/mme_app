@@ -32,6 +32,7 @@ plt.rcParams.update({
 
 
 
+
 def scroll_top():
     st.markdown("""
                 <style>
