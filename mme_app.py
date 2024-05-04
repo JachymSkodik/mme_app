@@ -498,7 +498,7 @@ def hicks():
     
     handles = [plt.Line2D([], [], color='#EE7708', label='$P_X ' + backslash + 'cdot X + P_Y ' + backslash + 'cdot Y = I$'),
                plt.Line2D([], [], linestyle='dashed', color='white', label='$U(X, Y) = X^c ' + backslash + 'cdot Y^d$'),
-               plt.scatter([], [], color='red', label=f'Minimální výdaje\n{'min $P_X ' + backslash + 'cdot X + P_Y ' + backslash + 'cdot Y$'} = {round(I, 2)}')]
+               plt.scatter([], [], color='red', label=f"Minimální výdaje\n{'min $P_X ' + backslash + 'cdot X + P_Y ' + backslash + 'cdot Y$'} = {round(I, 2)}")]
     ax.legend(handles=handles, loc='upper right', fontsize=9, facecolor='#0E1117')
 
     st.pyplot(fig)
@@ -1065,7 +1065,7 @@ def min_naklady():
     
     handles = [plt.Line2D([], [], color='#EE7708', label='$Q(L, K) = L^c ' + backslash + 'cdot K^d$'),
                plt.Line2D([], [], color='#6473AC', label='$w ' + backslash + 'cdot L + r ' + backslash + 'cdot K = TC$'),
-               plt.scatter([], [], color='red', label=f'Minimální náklady\n{'min $TC$'} = {round(C_min, 2)}')]
+               plt.scatter([], [], color='red', label=f"Minimální náklady\n{'min $TC$'} = {round(C_min, 2)}")]
     ax.legend(handles=handles, loc='upper right', fontsize=9, facecolor='#0E1117')
 
     st.pyplot(fig)
@@ -1255,7 +1255,7 @@ def min_naklady():
     
     handles = [plt.Line2D([], [], color='#6473AC', label='Dlouhodobá stezka\nexpanze produktu'),
                plt.Line2D([], [], linestyle='dashed', color='#7A7A7A', alpha=0.75, label='Izokvanty pro $Q ' + backslash + 'in ' + backslash + 'mathbb{R}^{+}_0$'),
-               plt.scatter([], [], color='red', label=f'Minimální náklady\nmin {'$w ' + backslash + 'cdot L + r ' + backslash + 'cdot K$'} pro {'$Q ' + backslash + 'in ' + backslash + 'mathbb{R}^{+}_0$'}')]
+               plt.scatter([], [], color='red', label=f"Minimální náklady\nmin {'$w ' + backslash + 'cdot L + r ' + backslash + 'cdot K$'} pro {'$Q ' + backslash + 'in ' + backslash + 'mathbb{R}^{+}_0$'}")]
     legend_pos = 'upper left' if slope2 < 1.5 else 'lower right'
     ax2.legend(handles=handles, loc=legend_pos, fontsize=9, facecolor='#0E1117')
 
