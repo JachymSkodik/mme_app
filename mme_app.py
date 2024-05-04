@@ -30,6 +30,8 @@ plt.rcParams.update({
     'grid.linewidth': 0.5,
 })
 
+backslash = '\\'
+
 
 
 
@@ -97,11 +99,11 @@ def marshall():
         a pevně daném důchodu (jehož výši označujeme jako
         <img src="{latex_img}{'I'}" style="{latex_style}" />), tj.
             <div style="padding: 15px; padding-left: 20px;">
-                <img src="{latex_img}{'\\max_{X, Y} U(X, Y)'}" style="{latex_style}" />
+                <img src="{latex_img}{backslash + 'max_{X, Y} U(X, Y)'}" style="{latex_style}" />
             </div>
         za podmínky
             <div style="padding: 15px; padding-left: 20px;">
-                <img src="{latex_img}{'P_X \\cdot X + P_Y \\cdot Y = I'}" style="{latex_style}" />,
+                <img src="{latex_img}{'P_X' + backslash + 'cdot X + P_Y' + backslash + 'cdot Y = I'}" style="{latex_style}" />,
             </div>
         kde <img src="{latex_img}{'X'}" style="{latex_style}" /> a <img src="{latex_img}{'Y'}" style="{latex_style}" />
         jsou množství poptávaných statků, <img src="{latex_img}{'P_X'}" style="{latex_style}" /> a <img src="{latex_img}{'P_Y'}" style="{latex_style}" />
